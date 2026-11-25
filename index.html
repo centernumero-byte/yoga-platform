@@ -7,24 +7,12 @@
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <style>
-/* ===== Цвета: у каждого языка своя тема ===== */
-:root, html[data-lang="ru"] {
-  --bg1:#24170f; --bg2:#3a2416; --panel1:#47301f; --panel2:#2c1d13; --card1:#523825; --card2:#36251a;
-  --glow:rgba(235,160,90,.20); --gold:#ffd9a8; --gold2:#f0b673; --text:#f7eee6; --muted:#cdb7a3;
-  --line:rgba(235,160,90,.50); --line-soft:rgba(235,160,90,.22); --hover:rgba(235,160,90,.14);
-  --active1:rgba(235,160,90,.38); --active2:rgba(235,160,90,.18); --btn1:#b5672c; --btn2:#8f4e20; --input:rgba(0,0,0,.22);
-}
-html[data-lang="kz"] {
-  --bg1:#14211a; --bg2:#203328; --panel1:#2a4033; --panel2:#1b2b22; --card1:#31503f; --card2:#22382c;
-  --glow:rgba(150,205,150,.20); --gold:#e6efc0; --gold2:#c9d98f; --text:#eef3ec; --muted:#b2c4b4;
-  --line:rgba(150,205,150,.50); --line-soft:rgba(150,205,150,.22); --hover:rgba(150,205,150,.14);
-  --active1:rgba(150,205,150,.38); --active2:rgba(150,205,150,.18); --btn1:#5a8a4a; --btn2:#446d37; --input:rgba(0,0,0,.22);
-}
-html[data-lang="uz"] {
-  --bg1:#171a2e; --bg2:#232847; --panel1:#2d3358; --panel2:#1d2140; --card1:#363d66; --card2:#262b4a;
-  --glow:rgba(160,165,240,.20); --gold:#dcdcff; --gold2:#b3b6f0; --text:#eeeef8; --muted:#b3b4cc;
-  --line:rgba(160,165,240,.50); --line-soft:rgba(160,165,240,.22); --hover:rgba(160,165,240,.14);
-  --active1:rgba(160,165,240,.38); --active2:rgba(160,165,240,.18); --btn1:#5b5fb3; --btn2:#464a91; --input:rgba(0,0,0,.22);
+/* Тема «Лотос» — одна для всех языков */
+:root, html[data-lang="ru"], html[data-lang="kz"], html[data-lang="uz"], html[data-lang="uzl"] {
+  --bg1:#241a2e; --bg2:#3a2a48; --panel1:#46335c; --panel2:#2c2039; --card1:#4f3a68; --card2:#35284a;
+  --glow:rgba(230,140,190,.20); --gold:#f8d3e3; --gold2:#e9a6c6; --text:#f6eef5; --muted:#cdb8cc;
+  --line:rgba(230,140,190,.50); --line-soft:rgba(230,140,190,.22); --hover:rgba(230,140,190,.14);
+  --active1:rgba(230,140,190,.38); --active2:rgba(230,140,190,.18); --btn1:#c0649a; --btn2:#9a4b7b; --input:rgba(0,0,0,.22);
 }
 * { box-sizing:border-box; }
 html, body { margin:0; }
